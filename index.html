@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+  <script type="text/javascript" src="twitter_data.js"></script>
+  <script type="text/javascript" src="twitter_ui.js"></script>
+  <script src="moment.min.js"></script>
+</head>
+
+<body>
+  <h1>Twitterish</h1>
+
+  <section id="news_feed_section">
+    <h3>Updates from every one you're following:</h3>
+    <button id="refresh_news_feed">Refresh news feed</button>
+    <div id="news_feed"></div><br>
+  </section>
+
+  
+  <section id="following">
+    <h3>Filter updates by user:</h3>
+    <button id="refresh_user_feed">Refresh news feed</button><br><br>
+
+    <div id="radio_button_set">
+      <input type="radio" name="user_select" id="shawndrost">shawndrost<br>
+      <input type="radio" name="user_select" id="sharksforcheap">sharksforcheap<br>
+      <input type="radio" name="user_select" id="mracus">mracus<br>
+      <input type="radio" name="user_select" id="douglascalhoun">douglascalhoun<br>
+    </div>
+
+    <div id="user"></div>
+  </section>
+
+</body>
+
+</html>
